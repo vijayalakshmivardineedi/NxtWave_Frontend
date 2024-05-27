@@ -1,0 +1,158 @@
+/* AddResourcePage.css */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .add-resource-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .border-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent; /* Invisible border */
+    padding: 20px;
+    height: 100%; /* Full height of the viewport */
+    width: 100%; /* Full width of the viewport */
+    box-sizing: border-box; /* Ensure padding is included in height/width */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: add shadow for visual separation */
+    background-color: #fff; /* Optional: set a background color for the container */
+  }
+  
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  .left-section {
+    position: relative; /* Set position relative */
+  }
+  
+  .user-section {
+    position: absolute; /* Position absolute */
+    top: 0; /* Position at the top */
+    left: 0; /* Position at the left */
+    padding: 10px; /* Add padding as needed */
+  }
+  
+  .user-section strong {
+    margin-right: 5px; /* Adjust margin as needed */
+  }
+  
+  
+  .user-icon {
+    height: 40px;
+  }
+  
+  .content {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in height/width */
+  }
+  
+  .left-section, .right-section {
+    width: 48%; /* Adjust the width to ensure they sit side by side */
+  }
+  
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally */
+    padding-right: 20px;
+  }
+  
+  .left-section h2 {
+    margin-bottom: 20px;
+    text-align: center; /* Center the text within the h2 element */
+  }
+  
+  .left-section form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ensure the form takes full width of the left-section */
+  }
+  
+  .left-section input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .left-section button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .right-section img {
+    max-width: 100%;
+    height: auto;
+  }
+
+/* AddResourcePage.css */
+.form-group button[type="submit"] {
+    background-color: blue; /* Change button background color to blue */
+    color: white; /* Change button text color to white */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+  .submit{
+    background-color: blue; /* Change button background color to blue */
+    color: white; /* Change button text color to white */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .form-group input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Change color of all anchor tags */
+  .form-group a {
+    color: blue; /* Change URL text color to blue */
+  }
+  
